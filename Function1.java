@@ -42,11 +42,7 @@ public class Function1 {
 				DisplayLocation dc = (Employee e) -> e.location;
 				
 				
-				s.add(dc.loc(e1));
-				s.add(dc.loc(e2));
-				s.add(dc.loc(e3));
-				s.add(dc.loc(e4));
-				s.add(dc.loc(e5));
+				
 				
 				s.forEach(i->System.out.println(i));
 	}
